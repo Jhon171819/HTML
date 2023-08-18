@@ -1,8 +1,16 @@
 body{
     background-color: black;
-    color: white;
+    color: rgb(253, 253, 253);
 }
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
 }
+
+div {
+    background-color: lightgrey;
+    width: 150px;
+    border: 15px solid rgb(57, 3, 78);
+    padding: 50px;
+    text-align: center;
+    font-size: 90%;
 

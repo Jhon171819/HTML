@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <!-- desenvolvido por jonathan -->
+    <!-- desenvolvido por Jonathan -->
     <meta charset="UTF8">
 <head>
     <link rel="stylesheet" href="index.css">
-
-    <button onclick="WhiteMode()", id="But">White Mode</button>
-    <button onclick="DarkMode()", id="But2">Dark Mode</button>
-    
+    <button onclick="modoClaro()", id="But">Modo claro</button>
+    <button onclick="modoEscuro()", id="But2">Modo escuro</button>
+    <div>
+        <h1 id="Resultado"></h1>
+    </div>
     <label for="Calculo">
-        <p>Digite o primeiro valor: 
-            <input id="Valor1">
-        </p>  
-        <h1 id="outputSoma"></h1>
+                <p>
+                    Digite o primeiro valor:        
+                    <br>
+                    <input id="Valor1">
+                </p>  
+                <p>
+                    Digite o segundo valor:
+                    <br>
+                    <input id="Valor2">
+                </p>
         <p>
-            <button onclick="soma()">Somar</button>
+            <button onclick="somar()">Somar</button>
+            <button onclick="multiplicar()">Multiplicar</button>
+            <Button onclick="subtrair()">Subtrair</Button>
+            <button onclick="dividir()">Dividir</button>
         </p>
-        <p>
-            Digite o segundo valor: 
-            <input id="Valor2">
-        </p>
+        
     </label>
 </head>
 
