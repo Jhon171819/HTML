@@ -1,6 +1,7 @@
 function WhiteMode() {
     document.getElementById("B").style.backgroundColor = "white";
-    document.getElementById("B").style.color = "black";    
+    document.getElementById("B").style.color = "black";
+    document.getElementById("outputSoma").style.color = "black";
 }
 function DarkMode() {
     document.getElementById("B").style.backgroundColor = "black";
@@ -12,5 +13,5 @@ function soma() {
     x = parseInt(x)
     let y = document.getElementById("Valor2").value;
     y = parseInt(y)
-    document.getElementById("Show").innerHTML = x + y;
+    document.getElementById("outputSoma").innerHTML = x + y;
 }
