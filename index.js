@@ -6,6 +6,7 @@ function WhiteMode() {
 function DarkMode() {
     document.getElementById("B").style.backgroundColor = "black";
     document.getElementById("B").style.color = "white";
+    document.getElementById("outputSoma").style.color = "white";
 }
 
 function soma() {
