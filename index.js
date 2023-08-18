@@ -11,7 +11,7 @@ function dividir() {
     x = parseInt(x)
     let y = document.getElementById("Valor2").value;
     y = parseInt(y)
-    resultado = parseFloat(x / y).toFixed(3)
+    resultado = parseFloat(x / y).toFixed(2)
     document.getElementById("Resultado").innerHTML = resultado;
 }
 
