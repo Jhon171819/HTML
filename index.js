@@ -1,37 +1,38 @@
+function pegar() {
+    let x = document.getElementById("valor1").value;
+    x = parseInt(x)
+    let y = document.getElementById("valor2").value;
+    y = parseInt(y)
+    return {x, y}
+}
+
 function modoClaro() {
-    document.getElementById("B").style.backgroundColor = "white";
-    document.getElementById("B").style.color = "black";
+    document.getElementById("corpo").style.backgroundColor = "white";
+    document.getElementById("corpo").style.color = "black";
 }
+
 function modoEscuro() {
-    document.getElementById("B").style.backgroundColor = "black";
-    document.getElementById("B").style.color = "white";
+    document.getElementById("corpo").style.backgroundColor = "black";
+    document.getElementById("corpo").style.color = "white";
 }
+
 function dividir() {
-    let x = document.getElementById("Valor1").value;
-    x = parseInt(x)
-    let y = document.getElementById("Valor2").value;
-    y = parseInt(y)
+    const {x, y} = pegar()
     resultado = parseFloat(x / y).toFixed(2)
-    document.getElementById("Resultado").innerHTML = resultado;
+    document.getElementById("resultado").innerHTML = resultado;
 }
+
 function subtrair() {
-    let x = document.getElementById("Valor1").value;
-    x = parseInt(x)
-    let y = document.getElementById("Valor2").value;
-    y = parseInt(y)
-    document.getElementById("Resultado").innerHTML = x - y;
+    const {x, y} = pegar()
+    document.getElementById("resultado").innerHTML = x - y;
 }
+
 function multiplicar() {
-    let x = document.getElementById("Valor1").value;
-    x = parseInt(x)
-    let y = document.getElementById("Valor2").value;
-    y = parseInt(y)
-    document.getElementById("Resultado").innerHTML = x * y;
+    const {x, y} = pegar()
+    document.getElementById("resultado").innerHTML = x * y;
 }
+
 function somar() {
-    let x = document.getElementById("Valor1").value;
-    x = parseInt(x)
-    let y = document.getElementById("Valor2").value;
-    y = parseInt(y)
-    document.getElementById("Resultado").innerHTML = x + y;
+    const {x, y} = pegar()
+    document.getElementById("resultado").innerHTML = x + y;
 }
