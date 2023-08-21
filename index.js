@@ -14,14 +14,12 @@ function dividir() {
     resultado = parseFloat(x / y).toFixed(2)
     document.getElementById("Resultado").innerHTML = resultado;
 }
-
 function subtrair() {
     let x = document.getElementById("Valor1").value;
     x = parseInt(x)
     let y = document.getElementById("Valor2").value;
     y = parseInt(y)
     document.getElementById("Resultado").innerHTML = x - y;
-
 }
 function multiplicar() {
     let x = document.getElementById("Valor1").value;
@@ -30,7 +28,6 @@ function multiplicar() {
     y = parseInt(y)
     document.getElementById("Resultado").innerHTML = x * y;
 }
-
 function somar() {
     let x = document.getElementById("Valor1").value;
     x = parseInt(x)
