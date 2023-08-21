@@ -1,4 +1,4 @@
-function pegar() {
+function pegarValores() {
     let x = document.getElementById("valor1").value;
     x = parseInt(x)
     let y = document.getElementById("valor2").value;
