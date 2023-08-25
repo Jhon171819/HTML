@@ -17,22 +17,22 @@ function modoEscuro() {
 }
 
 function dividir() {
-    const {x, y} = pegar()
+    const {x, y} = pegarValores()
     resultado = parseFloat(x / y).toFixed(2)
     document.getElementById("resultado").innerHTML = resultado;
 }
 
 function subtrair() {
-    const {x, y} = pegar()
+    const {x, y} = pegarValores()
     document.getElementById("resultado").innerHTML = x - y;
 }
 
 function multiplicar() {
-    const {x, y} = pegar()
+    const {x, y} = pegarValores()
     document.getElementById("resultado").innerHTML = x * y;
 }
 
 function somar() {
-    const {x, y} = pegar()
+    const {x, y} = pegarValores()
     document.getElementById("resultado").innerHTML = x + y;
 }
